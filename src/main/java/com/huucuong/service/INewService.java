@@ -1,9 +1,9 @@
-package com.huucuong.dao;
+package com.huucuong.service;
 
 import java.util.List;
 
 import com.huucuong.model.NewModel;
 
-public interface INewDAO extends GenericDAO<NewModel> {
+public interface INewService {
 	List<NewModel> findAll();
 }
