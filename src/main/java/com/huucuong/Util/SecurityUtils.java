@@ -10,6 +10,8 @@ import com.huucuong.dto.MyUser;
 
 public class SecurityUtils {
 	
+	
+	// get thông tin 
 	public static MyUser getPrincipal() {
 		MyUser myUser = (MyUser) (SecurityContextHolder.getContext()).getAuthentication().getPrincipal();
         return myUser;
