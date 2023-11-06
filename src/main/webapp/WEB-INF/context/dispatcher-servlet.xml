@@ -21,7 +21,7 @@
               http://www.springframework.org/schema/context/spring-context.xsd">
 
    <context:component-scan
-      base-package="com.huucuong.controller" />
+      base-package="com.huucuong.controller, com.huucuong.api" />
 
    <mvc:annotation-driven />
 
