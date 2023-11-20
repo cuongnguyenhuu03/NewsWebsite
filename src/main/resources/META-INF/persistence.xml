@@ -4,5 +4,6 @@
         <class>com.huucuong.entity.NewEntity</class>
         <class>com.huucuong.entity.RoleEntity</class>
         <class>com.huucuong.entity.UserEntity</class>
+        <class>com.huucuong.entity.CategoryEntity</class>
     </persistence-unit>
 </persistence>

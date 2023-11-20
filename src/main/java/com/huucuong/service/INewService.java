@@ -2,8 +2,11 @@ package com.huucuong.service;
 
 import java.util.List;
 
-import com.huucuong.model.NewModel;
+import org.springframework.data.domain.Pageable;
+
+import com.huucuong.dto.NewDTO;
 
 public interface INewService {
-	List<NewModel> findAll();
+	List<NewDTO> findAll(Pageable pageable);
+	int getTotalItem();
 }
